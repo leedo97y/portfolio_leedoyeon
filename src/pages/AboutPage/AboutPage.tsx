@@ -2,12 +2,14 @@ import React from "react";
 import SideBar from "../../components/SideBar/SideBar";
 import { Container, AboutDiv } from "./AboutPageStyle";
 
-const AboutPage = () => {
+const AboutPage: React.FC = () => {
   return (
     <Container>
       <SideBar />
       <AboutDiv>
         <h1>about me</h1>
+        <h3>name</h3>
+        <span>이도연</span>
         <h3>short introduce</h3>
         <p>
           백엔드와 소통이 잘되는 프론트엔드 엔지니어를 희망합니다!
@@ -26,14 +28,13 @@ const AboutPage = () => {
           또한 이렇게 알게 된 다양한 기술, 트렌드를 동료 개발자들과 나누며 좋은
           개발 문화를 만들겠습니다.
         </p>
-        <h3>name</h3>
-        <span></span>
+
         <h3>phone</h3>
-        <span></span>
+        <span>010-3837-2351</span>
         <h3>email</h3>
-        <span></span>
+        <span>dlehdus1433@gmail.com</span>
         <h3>address</h3>
-        <span></span>
+        <span>서울시 노원구</span>
       </AboutDiv>
     </Container>
   );
