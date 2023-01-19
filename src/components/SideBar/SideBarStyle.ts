@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
 
 export const Container = styled.div`
   display: grid;
@@ -33,36 +32,5 @@ export const ProfileSpace = styled.div`
     font-size: 50px;
     font-weight: 500;
     letter-spacing: 1.5px;
-  }
-`;
-
-export const Menu = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  height: 300px;
-
-  & :active {
-    color: #007cfa;
-  }
-`;
-
-export const NavbarLink = styled(NavLink)`
-  text-decoration: none;
-  color: black;
-
-  & :focus {
-    span {
-      color: #007cfa;
-    }
-  }
-
-  & :active {
-    span {
-      color: #007cfa;
-    }
   }
 `;
