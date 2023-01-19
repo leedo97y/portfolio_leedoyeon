@@ -7,10 +7,13 @@ const MainPage = () => {
     <Container>
       <SideBar />
       <MainDiv>
+        소통이 잘 되며,
+        <br />
         알게 된 다양한 기술, 트렌드들을 동료와 나누며
         <br />
-        좋은 개발 문화를 만들고 싶은 신입
-        <Blue> 프론트엔드 개발자</Blue> 이도연 입니다.
+        좋은 개발 문화를 만들고 싶은
+        <br />
+        신입 <Blue> 프론트엔드 개발자</Blue> 이도연 입니다.
       </MainDiv>
     </Container>
   );
