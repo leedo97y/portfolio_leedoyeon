@@ -7,7 +7,7 @@ export const Menu = styled.div`
   gap: 20px;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 200px;
   height: 300px;
 
   .active {
