@@ -12,10 +12,10 @@ const MenuComponent: React.FC = () => {
           <NavbarLink to="/about">about me</NavbarLink>
         </button>
         <button>
-          <NavbarLink to="#">tech skills</NavbarLink>
+          <NavbarLink to="/tech">tech skills</NavbarLink>
         </button>
         <button>
-          <NavbarLink to="#">project</NavbarLink>
+          <NavbarLink to="/project">project</NavbarLink>
         </button>
       </Menu>
     </div>
