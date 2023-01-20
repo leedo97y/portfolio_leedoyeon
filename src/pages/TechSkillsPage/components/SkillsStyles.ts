@@ -50,10 +50,8 @@ export const Content = styled.div`
   }
 
   #mongo {
-    width: 110px;
-    height: 35px;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    width: 70px;
+    height: 70px;
   }
 `;
 
