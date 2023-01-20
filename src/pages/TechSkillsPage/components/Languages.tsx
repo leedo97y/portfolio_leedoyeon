@@ -13,6 +13,7 @@ import SassLogo from "../../../assets/images/sasslogo.png";
 import NodeLogo from "../../../assets/images/nodejslogo.png";
 import MongodbLogo from "../../../assets/images/mongodblogo.png";
 import ExpressLogo from "../../../assets/images/expresslogo.png";
+import PythonLogo from "../../../assets/images/pythonlogo.png";
 
 const Languages: React.FC = () => {
   return (
@@ -52,6 +53,9 @@ const Languages: React.FC = () => {
       </Content>
       <Content>
         <img src={MongodbLogo} id="mongo" />
+      </Content>
+      <Content>
+        <img src={PythonLogo} />
       </Content>
       <Content>
         <img src={ExpressLogo} />
