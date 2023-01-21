@@ -4,6 +4,7 @@ import Main from "../../../assets/images/friedeggMain.png";
 import {
   FriedEggFrontSkill,
   FriedEggBackSkill,
+  FriedEggDeploy,
   FriedEggTool,
 } from "./FriedEggSkill";
 
@@ -86,6 +87,8 @@ const FriedEgg: React.FC = () => {
         <br />
         joi
       </p>
+      <h4>deploy</h4>
+      <FriedEggDeploy />
       <h4>tool</h4>
       <FriedEggTool />
       <h3>url</h3>

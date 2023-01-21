@@ -1,15 +1,16 @@
 import React from "react";
 import { WholeBtn, Button } from "./SkillButtonStyle";
-import HtmlLogo from "../../../assets/images/htmllogo.png";
-import CssLogo from "../../../assets/images/csslogo.png";
-import JsLogo from "../../../assets/images/jslogo.png";
-import EjsLogo from "../../../assets/images/ejslogo.png";
-import BulmaLogo from "../../../assets/images/bulmalogo.png";
+import ReactLogo from "../../../assets/images/reactlogo.png";
+import TypeScriptLogo from "../../../assets/images/typescriptlogo.png";
+import SassLogo from "../../../assets/images/sasslogo.png";
+import StyledLogo from "../../../assets/images/styledlogo.png";
+import ReduxLogo from "../../../assets/images/reduxlogo.png";
 
 import NodeLogo from "../../../assets/images/nodejslogo.png";
 import MongodbLogo from "../../../assets/images/mongodblogo.png";
 import ExpressLogo from "../../../assets/images/expresslogo.png";
 import MongooseLogo from "../../../assets/images/mongooselogo.png";
+import RedisLogo from "../../../assets/images/redislogo.png";
 
 import NginxLogo from "../../../assets/images/nginxlogo.png";
 import Pm2Logo from "../../../assets/images/pm2logo.jpeg";
@@ -17,35 +18,34 @@ import Pm2Logo from "../../../assets/images/pm2logo.jpeg";
 import GitLogo from "../../../assets/images/gitlogo.png";
 import GitlabLogo from "../../../assets/images/gitlablogo.png";
 import FigmaLogo from "../../../assets/images/figmalogo.png";
-import TrelloLogo from "../../../assets/images/trellologo.jpeg";
 
-const FriedEggFrontSkill: React.FC = () => {
+const TripMatchFrontSkill = () => {
   return (
     <WholeBtn>
       <Button>
-        <img src={HtmlLogo} alt="HTML" />
+        <img src={ReactLogo} alt="React" />
       </Button>
       <Button>
-        <img src={CssLogo} alt="CSS" />
+        <img src={TypeScriptLogo} alt="typescript" />
       </Button>
       <Button>
-        <img src={JsLogo} alt="JavaScript" />
+        <img src={StyledLogo} alt="styled component" />
       </Button>
       <Button>
-        <img src={EjsLogo} alt="ejs" />
+        <img src={SassLogo} alt="Sass" />
       </Button>
       <Button>
-        <img src={BulmaLogo} alt="bulma css" />
+        <img src={ReduxLogo} alt="redux-toolkit" />
       </Button>
     </WholeBtn>
   );
 };
 
-const FriedEggBackSkill: React.FC = () => {
+const TripMatchBackSkill = () => {
   return (
     <WholeBtn>
       <Button>
-        <img src={JsLogo} alt="JavaScript" />
+        <img src={TypeScriptLogo} alt="typescript" />
       </Button>
       <Button>
         <img src={NodeLogo} alt="node js" />
@@ -59,11 +59,30 @@ const FriedEggBackSkill: React.FC = () => {
       <Button>
         <img src={MongooseLogo} alt="mongoose" />
       </Button>
+      <Button>
+        <img src={RedisLogo} alt="redis" />
+      </Button>
     </WholeBtn>
   );
 };
 
-const FriedEggDeploy: React.FC = () => {
+const TripMatchDeploy: React.FC = () => {
+  return (
+    <WholeBtn>
+      <Button>
+        <img src={GitLogo} alt="git" />
+      </Button>
+      <Button>
+        <img src={GitlabLogo} alt="gitlab" />
+      </Button>
+      <Button>
+        <img src={FigmaLogo} alt="figma" />
+      </Button>
+    </WholeBtn>
+  );
+};
+
+const TripMatchTool: React.FC = () => {
   return (
     <WholeBtn>
       <Button>
@@ -76,23 +95,9 @@ const FriedEggDeploy: React.FC = () => {
   );
 };
 
-const FriedEggTool: React.FC = () => {
-  return (
-    <WholeBtn>
-      <Button>
-        <img src={GitLogo} alt="git" />
-      </Button>
-      <Button>
-        <img src={GitlabLogo} alt="gitlab" />
-      </Button>
-      <Button>
-        <img src={TrelloLogo} alt="Trello" />
-      </Button>
-      <Button>
-        <img src={FigmaLogo} alt="figma" />
-      </Button>
-    </WholeBtn>
-  );
+export {
+  TripMatchFrontSkill,
+  TripMatchBackSkill,
+  TripMatchDeploy,
+  TripMatchTool,
 };
-
-export { FriedEggFrontSkill, FriedEggBackSkill, FriedEggDeploy, FriedEggTool };
