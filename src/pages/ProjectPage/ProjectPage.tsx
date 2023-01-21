@@ -8,11 +8,23 @@ import TripMatch from "./components/TripMatch";
 // LayerDiv
 
 const ProjectPage: React.FC = () => {
-  // const [click, setClick] = useState<boolean>(false);
+  const [weather, setWeather] = useState<boolean>(false);
+  const [egg, setEgg] = useState<boolean>(false);
+  const [retfilx, setRetfilx] = useState<boolean>(false);
+  const [trip, setTrip] = useState<boolean>(false);
 
-  // const onClickBtn: React.MouseEventHandler<HTMLButtonElement> = (e) => {
-  //   setClick(!click);
-  // };
+  const onClickWeather: React.MouseEventHandler<HTMLButtonElement> = () => {
+    setWeather(!weather);
+  };
+  const onClickEgg: React.MouseEventHandler<HTMLButtonElement> = () => {
+    setEgg(!egg);
+  };
+  const onClickRetfilx: React.MouseEventHandler<HTMLButtonElement> = () => {
+    setRetfilx(!retfilx);
+  };
+  const onClickTrip: React.MouseEventHandler<HTMLButtonElement> = () => {
+    setTrip(!trip);
+  };
 
   return (
     <div>
@@ -20,23 +32,50 @@ const ProjectPage: React.FC = () => {
         <SideBar />
         <ProjectDiv>
           <h1>project</h1>
-          <button>오늘 뭐 입지?</button>
-          <button>계란후라이</button>
-          <button>Retfilx</button>
-          <button>TripMatch</button>
-          {}
-          {/* <Contents>
-            <Weather />
-          </Contents> */}
+          <h3>team project</h3>
+
+          <div id="teamButtons">
+            {weather ? (
+              <button onClick={onClickWeather} id="button">
+                ✕
+              </button>
+            ) : (
+              <button onClick={onClickWeather}>오늘 뭐 입지?</button>
+            )}
+
+            {egg ? (
+              <button onClick={onClickEgg} id="button">
+                ✕
+              </button>
+            ) : (
+              <button onClick={onClickEgg}>계란후라이</button>
+            )}
+
+            {retfilx ? (
+              <button onClick={onClickRetfilx} id="button">
+                ✕
+              </button>
+            ) : (
+              <button onClick={onClickRetfilx}>Retfilx</button>
+            )}
+
+            {trip ? (
+              <button onClick={onClickTrip} id="button">
+                ✕
+              </button>
+            ) : (
+              <button onClick={onClickTrip}>TripMatch</button>
+            )}
+          </div>
+
+          <h3>personal project</h3>
+
           <Contents>
-            <FriedEgg />
+            {weather ? <Weather /> : null}
+            {egg ? <FriedEgg /> : null}
+            {retfilx ? <Retfilx /> : null}
+            {trip ? <TripMatch /> : null}
           </Contents>
-          <Contents>
-            <Retfilx />
-          </Contents>
-          {/* <Contents>
-            <TripMatch />
-          </Contents> */}
         </ProjectDiv>
       </Container>
     </div>
