@@ -18,6 +18,41 @@ export const ProjectDiv = styled.div`
     margin-bottom: 10px;
     margin-top: 10px;
   }
+
+  h3 {
+    font-weight: 400;
+    font-family: "Alegreya Sans SC", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  #teamButtons {
+    width: 900px;
+    height: 75px;
+    display: grid;
+    grid-template-columns: repeat(5, 180px);
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  button {
+    width: 165px;
+    height: 60px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ceebff;
+  }
+
+  #button {
+    background-color: #c0d4e1;
+  }
 `;
 
 export const Contents = styled.div`
@@ -81,6 +116,10 @@ export const Contents = styled.div`
     font-weight: 500;
     margin-bottom: 10px;
     margin-top: 10px;
+  }
+
+  #prize {
+    margin-top: 20px;
   }
 
   #add {
