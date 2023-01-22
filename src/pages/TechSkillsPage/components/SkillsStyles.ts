@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const LanguageDiv = styled.div`
   height: 350px;
   background-color: white;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px 0 40px;
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
@@ -58,7 +58,7 @@ export const Content = styled.div`
 export const ToolDiv = styled.div`
   height: 200px;
   background-color: white;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px 0 40px;
   padding-top: 20px;
   font-size: 20px;
   font-family: "Quicksand", sans-serif;

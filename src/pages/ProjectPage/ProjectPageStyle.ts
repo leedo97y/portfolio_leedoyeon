@@ -1,22 +1,24 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  width: 100%;
+  height: 100vh;
   display: grid;
   grid-template-columns: 300px 1fr;
+  overflow: hidden;
 `;
 
 export const ProjectDiv = styled.div`
-  height: 750px;
+  height: 100vh;
   background-color: white;
-  padding: 30px;
-  margin: 20px 20px;
+  padding: 40px 50px 0 50px;
 
   h1 {
     font-size: 35px;
     font-weight: 500;
     font-family: "Alegreya Sans SC", sans-serif;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 0;
   }
 
   h3 {
@@ -28,7 +30,7 @@ export const ProjectDiv = styled.div`
 
   #teamButtons {
     width: 900px;
-    height: 75px;
+    height: 50px;
     display: grid;
     grid-template-columns: repeat(5, 180px);
     overflow-y: scroll;
@@ -39,9 +41,8 @@ export const ProjectDiv = styled.div`
   }
 
   button {
-    width: 165px;
-    height: 60px;
-    margin-right: 20px;
+    width: 140px;
+    height: 40px;
     margin-bottom: 5px;
     padding: 10px 20px;
     font-size: 16px;
@@ -50,14 +51,18 @@ export const ProjectDiv = styled.div`
     background-color: #ceebff;
   }
 
+  button:hover {
+    background-color: #bee3fd;
+  }
+
   #button {
     background-color: #c0d4e1;
   }
 `;
 
 export const Contents = styled.div`
-  width: 750px;
-  height: 650px;
+  width: 800px;
+  height: 500px;
   margin: 30px auto;
   font-weight: 400;
   font-size: 15px;
