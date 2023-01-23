@@ -7,7 +7,7 @@ const Weather: React.FC = () => {
   return (
     <>
       <h1>오늘 뭐 입지?</h1>
-      <span>2022년 2월 9일 ~ 20일</span>
+      <span>2022년 02월 09일 ~ 20일</span>
 
       <img src={WeatherProject} id="image" />
       <p>

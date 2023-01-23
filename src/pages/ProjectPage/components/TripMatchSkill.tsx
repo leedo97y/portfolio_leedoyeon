@@ -66,7 +66,7 @@ const TripMatchBackSkill = () => {
   );
 };
 
-const TripMatchDeploy: React.FC = () => {
+const TripMatchTool: React.FC = () => {
   return (
     <WholeBtn>
       <Button>
@@ -82,7 +82,7 @@ const TripMatchDeploy: React.FC = () => {
   );
 };
 
-const TripMatchTool: React.FC = () => {
+const TripMatchDeploy: React.FC = () => {
   return (
     <WholeBtn>
       <Button>

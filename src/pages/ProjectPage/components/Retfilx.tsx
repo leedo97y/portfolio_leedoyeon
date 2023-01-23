@@ -1,5 +1,5 @@
 import React from "react";
-import { Bold, Red } from "../ProjectPageStyle";
+import { Bold, RealRed } from "../ProjectPageStyle";
 import RetfilxMain from "../../../assets/images/retfilxmain.png";
 import SkillButton from "./WeatherSkill";
 import { RetfilxSkill, RetfilxTool } from "./RetfilxSkill";
@@ -12,8 +12,8 @@ const Retfilx: React.FC = () => {
 
       <img src={RetfilxMain} id="image" />
       <p>
-        react로 Netfilx를 클론코딩하였다. ( React + Netfilx =
-        <Bold> Retfilx</Bold> )
+        <RealRed>React</RealRed> 로 Netfilx를 클론코딩하였다. ( React + Netfilx
+        =<Bold> Retfilx</Bold> )
       </p>
       <p>
         figma로 각 페이지를 디자인 한 뒤, 각자 페이지를 맡아 구현하였으며, 메인
@@ -24,8 +24,9 @@ const Retfilx: React.FC = () => {
         따라서 간단한 클론코딩을 하나 해보기로 했고, 영상 쪽에서 UI 쪽으로
         흥미가 있었던 넷플릭스를 선택하게 되었다.
         <br />
-        또, 배포는 <Red>vercel</Red> 이나 <Red>github pages</Red> 로 진행하기로
-        결정했으며, 우선은 데이터가 필요없는 페이지만 구현하기로 정했다.
+        또, 배포는 <RealRed>vercel</RealRed> 이나
+        <RealRed> github pages</RealRed> 로 진행하기로 결정했으며, 우선은
+        데이터가 필요없는 페이지만 구현하기로 정했다.
       </p>
       <p>
         메인 페이지를 구성할 때 메인 페이지에 자동으로 재생되는 영상을 어떻게
@@ -35,11 +36,11 @@ const Retfilx: React.FC = () => {
         백엔드를 담당하는 사람이 없었기에 영상 데이터를 받아와서 다룰 수 있는
         상황이 아니었으므로,
         <br />
-        <Red>react-player</Red> 를 사용하여 유투브에서 가져온 링크를 넣어
-        재생가능하게 해주었다.
+        <RealRed>react-player</RealRed> 를 사용하여 유투브에서 가져온 링크를
+        넣어 재생가능하게 해주었다.
       </p>
       <p>
-        아이콘은 <Red>react-icons</Red> 를 import해서 구현하였다.
+        아이콘은 <RealRed>react-icons</RealRed> 를 import해서 구현하였다.
         <br />
         import 문이 좀 길어지는 단점이 있지만, 아이콘을 컴포넌트처럼 삽입하여
         편리성 측면에서는 좋았다.
@@ -57,6 +58,7 @@ const Retfilx: React.FC = () => {
       <RetfilxSkill />
       <h4>tool</h4>
       <RetfilxTool />
+      <h4>deploy</h4>
       <h3>url</h3>
       {/* <a href="https://cdn-api.elice.io/recruit-api-attachment/attachment/42f906a51bba4f29addc091f549feaab/weather.MP4">
         ▶︎ 시연영상
