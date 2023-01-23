@@ -23,6 +23,7 @@ export const TechDiv = styled.div`
     font-family: "Alegreya Sans SC", sans-serif;
     margin-bottom: 10px;
     margin-top: 0;
+    color: #164aba;
   }
 
   h3 {
@@ -32,6 +33,7 @@ export const TechDiv = styled.div`
     margin-bottom: 5px;
     margin-top: 0;
     border-bottom: 1px solid #c9c9c9;
+    color: #2e3340;
   }
 
   span {

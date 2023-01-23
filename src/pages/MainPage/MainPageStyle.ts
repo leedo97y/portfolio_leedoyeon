@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Ballons from "../../assets/images/balloons.jpg";
 
 export const Container = styled.div`
   width: 100%;
@@ -6,9 +7,17 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 300px 1fr;
   overflow: hidden;
+
+  #layer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(${Ballons});
+    background-size: cover;
+  }
 `;
 
 export const MainDiv = styled.div`
+  width: 100%;
   height: 100vh;
 
   div {
@@ -17,11 +26,20 @@ export const MainDiv = styled.div`
     margin-top: 250px;
     padding: 50px;
     letter-spacing: 1.3px;
-    font-weight: 400;
-    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: "NanumSquareNeoBold";
   }
 `;
 
+export const Bold = styled.span`
+  font-family: "NanumSquareNeoExtraBold";
+  /* font-weight: 500; */
+  font-size: 25px;
+`;
+
 export const Blue = styled.span`
-  color: blue;
+  font-family: "NanumSquareNeoExtraBold";
+  color: #164aba;
+  font-size: 25px;
 `;

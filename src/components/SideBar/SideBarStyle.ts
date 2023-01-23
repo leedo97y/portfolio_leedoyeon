@@ -8,7 +8,8 @@ export const Container = styled.div`
 export const SideBarDiv = styled.div`
   width: 200px;
   height: 100vh;
-  background-color: lightgrey;
+  background-color: #20489f;
+  color: #fff;
   padding: 50px;
 `;
 
@@ -30,8 +31,8 @@ export const ProfileSpace = styled.div`
 
   h1 {
     margin-top: 10px;
-    margin-bottom: -7px;
-    font-size: 40px;
+    margin-bottom: -9px;
+    font-size: 45px;
     font-weight: 500;
     letter-spacing: 1.5px;
   }

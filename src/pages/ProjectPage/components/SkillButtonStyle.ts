@@ -16,6 +16,7 @@ export const Button = styled.div`
     height: 50px;
     margin: 0;
     margin-right: 10px;
+    margin-left: 5px;
     padding: 5px;
     border-radius: 30px;
     box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.13);

@@ -19,13 +19,16 @@ export const ProjectDiv = styled.div`
     font-family: "Alegreya Sans SC", sans-serif;
     margin-bottom: 10px;
     margin-top: 0;
+    color: #164aba;
   }
 
   h3 {
+    font-size: 24px;
     font-weight: 400;
     font-family: "Alegreya Sans SC", sans-serif;
     margin-bottom: 10px;
     margin-top: 15px;
+    color: #2e3340;
   }
 
   #teamButtons {
@@ -45,18 +48,22 @@ export const ProjectDiv = styled.div`
     height: 40px;
     margin-bottom: 5px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 30px;
     border: none;
-    background-color: #ceebff;
+    background-color: #506fb3;
+    color: #fff;
+    font-family: "NanumSquareNeoBold";
   }
 
   button:hover {
-    background-color: #bee3fd;
+    background-color: #617ab0;
   }
 
   #button {
-    background-color: #c0d4e1;
+    background-color: #f7dba6;
+    color: #f57e00;
+    font-family: "NanumSquareNeoBold";
   }
 `;
 
@@ -66,7 +73,8 @@ export const Contents = styled.div`
   margin: 30px auto;
   font-weight: 400;
   font-size: 15px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "NanumSquareNeo";
+  line-height: 28px;
 
   display: grid;
 
@@ -75,16 +83,16 @@ export const Contents = styled.div`
   h1 {
     font-size: 25px;
     font-weight: 500;
-    font-family: "Quicksand", sans-serif;
-    margin: 7px 0;
+    font-family: "NanumSquareNeoExtraBold";
+    margin: 7px 0 0 0;
     padding-bottom: 5px;
     border-bottom: 1px solid #d9dbda;
   }
 
   span {
     width: 200px;
-    height: 15px;
-    font-size: 13px;
+    height: 20px;
+    font-size: 12px;
   }
 
   #image {
@@ -105,7 +113,7 @@ export const Contents = styled.div`
     font-family: "Alegreya Sans SC", sans-serif;
     font-size: 28px;
     font-weight: 500;
-    margin: 10px 0 0 0;
+    margin: 10px 0 10px 0;
   }
 
   a {
@@ -143,5 +151,15 @@ export const Green = styled.span`
 `;
 export const Red = styled.span`
   color: lightcoral;
+  font-weight: 600;
+`;
+
+export const RealRed = styled.span`
+  color: red;
+  font-weight: 600;
+`;
+
+export const Blue = styled.span`
+  color: #3757fa;
   font-weight: 600;
 `;

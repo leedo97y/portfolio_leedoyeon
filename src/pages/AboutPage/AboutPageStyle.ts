@@ -12,37 +12,41 @@ export const AboutDiv = styled.div`
   height: 100vh;
   background-color: white;
   padding: 40px 50px 0 50px;
-  font-size: 20px;
   letter-spacing: 1.1px;
   line-height: 30px;
+  font-family: "NanumSquareNeo";
+  font-size: 16px;
 
   h1 {
     font-weight: 500;
     font-family: "Alegreya Sans SC", sans-serif;
     margin-top: 0;
     letter-spacing: 0;
+    color: #164aba;
   }
 
   h3 {
+    font-size: 24px;
     font-weight: 400;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
     font-family: "Alegreya Sans SC", sans-serif;
     letter-spacing: 0;
     border-bottom: 1px solid #c9c9c9;
+    color: #2e3340;
   }
 
   p {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   span {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
+`;
+
+export const Blue = styled.span`
+  font-family: "NanumSquareNeoBold";
+  color: #164aba;
+  margin-right: 2px;
 `;
