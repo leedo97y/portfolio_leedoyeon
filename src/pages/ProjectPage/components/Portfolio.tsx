@@ -48,9 +48,6 @@ const Portfolio: React.FC = () => {
       <PortfolioDeploy />
       <h3>url</h3>
       <a href="https://github.com/leedo97y/portfolio_leedoyeon">
-        ▶︎ Portfolio Page
-      </a>
-      <a href="https://github.com/leedo97y/portfolio_leedoyeon">
         ▶︎ github repository
       </a>
     </>
