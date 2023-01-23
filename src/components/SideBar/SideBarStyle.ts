@@ -2,12 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: 400px 1fr;
+  grid-template-columns: 200px 1fr;
 `;
 
 export const SideBarDiv = styled.div`
+  width: 200px;
   height: 100vh;
-  background-color: lightgrey;
+  background-color: #20489f;
+  color: #fff;
   padding: 50px;
 `;
 
@@ -21,15 +23,16 @@ export const ProfileSpace = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
+  width: 200px;
   height: 200px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 300;
+  font-family: "Alegreya Sans SC", sans-serif;
 
   h1 {
     margin-top: 10px;
-    margin-bottom: -7px;
-    font-size: 50px;
+    margin-bottom: -9px;
+    font-size: 45px;
     font-weight: 500;
     letter-spacing: 1.5px;
   }

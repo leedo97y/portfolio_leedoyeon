@@ -7,18 +7,18 @@ export const Menu = styled.div`
   gap: 20px;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 200px;
   height: 300px;
 
   .active {
-    color: #007cfa;
+    color: #fbab34;
   }
 
   button {
     width: 200px;
     height: 80px;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 400;
     font-family: "Alegreya Sans SC", sans-serif;
     background-color: transparent;
     border: none;
@@ -27,9 +27,9 @@ export const Menu = styled.div`
 
 export const NavbarLink = styled(NavLink)`
   text-decoration: none;
-  color: black;
+  color: #fff;
 
   :hover {
-    color: #007cfa;
+    color: #fbab34;
   }
 `;
