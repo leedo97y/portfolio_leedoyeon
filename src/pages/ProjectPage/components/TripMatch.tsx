@@ -98,17 +98,19 @@ const TripMatch: React.FC = () => {
       <h4>tool</h4>
       <TripMatchTool />
       <h3>url</h3>
-      <a href="https://drive.google.com/file/d/1pUVAXMA1YtMgFE6_HKV3qnQrUT_zsGUm/view?usp=share_link">
-        ▶︎ 시연영상
+      <a href="https://web-trip-match-1b5xkk2fldeum3x7.gksl2.cloudtype.app/">
+        ▶︎ TripMatch page
       </a>
       <a href="https://elice.notion.site/SW-3-8-0e13511025ba40caa2a9fd7f054d6183">
         ▶︎ 프로젝트 설명 노션 페이지
+      </a>
+      <a href="https://drive.google.com/file/d/1pUVAXMA1YtMgFE6_HKV3qnQrUT_zsGUm/view?usp=share_link">
+        ▶︎ 시연영상
       </a>
       <a href="https://github.com/leedo97y/TripMatch">▶︎ github repository</a>
       <a href="https://www.figma.com/file/4bLsUoLZ1HW0FUGzgelvmP/figma-flowchart?node-id=0%3A1">
         ▶︎ Figma link
       </a>
-      <a href="http://kdt-sw3-team08.elicecoding.com/">▶︎ TripMatch page</a>
     </>
   );
 };
