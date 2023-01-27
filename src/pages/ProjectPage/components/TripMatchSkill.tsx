@@ -14,6 +14,7 @@ import RedisLogo from "../../../assets/images/redislogo.png";
 
 import NginxLogo from "../../../assets/images/nginxlogo.png";
 import Pm2Logo from "../../../assets/images/pm2logo.jpeg";
+import CloudTypeLogo from "../../../assets/images/cloudtypelogo.png";
 
 import GitLogo from "../../../assets/images/gitlogo.png";
 import GitlabLogo from "../../../assets/images/gitlablogo.png";
@@ -90,6 +91,9 @@ const TripMatchDeploy: React.FC = () => {
       </Button>
       <Button>
         <img src={Pm2Logo} alt="PM2" />
+      </Button>
+      <Button>
+        <img src={CloudTypeLogo} alt="cloudtype.io" />
       </Button>
     </WholeBtn>
   );
