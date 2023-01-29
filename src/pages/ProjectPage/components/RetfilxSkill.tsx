@@ -9,6 +9,8 @@ import GithubLogo from "../../../assets/images/githublogo.png";
 import FigmaLogo from "../../../assets/images/figmalogo.png";
 import JiraLogo from "../../../assets/images/jiralogo.jpeg";
 
+import VercelLogo from "../../../assets/images/vercellogo.png";
+
 const RetfilxSkill: React.FC = () => {
   return (
     <WholeBtn>
@@ -44,4 +46,14 @@ const RetfilxTool: React.FC = () => {
   );
 };
 
-export { RetfilxSkill, RetfilxTool };
+const RetfilxDeploy: React.FC = () => {
+  return (
+    <WholeBtn>
+      <Button>
+        <img src={VercelLogo} alt="vercel" />
+      </Button>
+    </WholeBtn>
+  );
+};
+
+export { RetfilxSkill, RetfilxTool, RetfilxDeploy };
