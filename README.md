@@ -1,6 +1,6 @@
 # Lee Do Yeon's Portfolio
 
-<img align=center width="500px" height="300px" src="src/assets/images/portfolioImage.png">
+<img  src="src/assets/images/portfolioImage.png">
 
 <br>
 
