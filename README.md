@@ -5,7 +5,7 @@
 <br>
 React와 TypeScript를 사용하여 포트폴리오 페이지를 만들었다.
 
-[🔗 포트폴리오 페이지 링크]("https://leedoyeon-portfolio.vercel.app")
+[🔗 포트폴리오 페이지 링크](https://leedoyeon-portfolio.vercel.app)
 
 <br>
 
