@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# Lee Do Yeon's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img align=center src="src/assets/images/portfolioImage.png">
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+This repository contains the portfolio of Lee Do Yeon, showcasing his skills, experience, and projects.
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- About page : 자기소개를 비록한 간략한 정보 페이지
+- Tech Skill page : 여태까지 배우거나 써 본 기술 스택을 보여주는 페이지
+- Project page : 진행했던 프로젝트들을 보여주는 페이지이며 프로젝트 소개, 메인 페이지 이미지, 사이트 링크, 시연영상 링크, 깃헙 레포지토리 주소 등이 있다.
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 기술스택
 
-### `npm run build`
+- React
+- TypeScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+For questions or feedback, please reach out to Lee Do Yeon at [my email address](dlehdus1433@gmail.com).
