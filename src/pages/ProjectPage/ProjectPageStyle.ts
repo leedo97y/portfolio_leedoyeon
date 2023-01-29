@@ -54,6 +54,7 @@ export const ProjectDiv = styled.div`
     background-color: #506fb3;
     color: #fff;
     font-family: "NanumSquareNeoBold";
+    cursor: pointer;
   }
 
   button:hover {
@@ -64,6 +65,7 @@ export const ProjectDiv = styled.div`
     background-color: #f7dba6;
     color: #f57e00;
     font-family: "NanumSquareNeoBold";
+    cursor: pointer;
   }
 `;
 
@@ -132,7 +134,18 @@ export const Contents = styled.div`
   }
 
   #prize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 30px;
     margin-top: 20px;
+    background-color: #fff0cf;
+    border-radius: 5px;
+
+    p {
+      margin: 0;
+    }
   }
 
   #add {
