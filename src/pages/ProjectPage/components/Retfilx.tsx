@@ -64,8 +64,7 @@ const Retfilx: React.FC = () => {
         ▶︎ 시연영상
       </a> */}
       <a href="https://github.com/BBBBBreak/Retflix">▶︎ github repository</a>
-      <a href="https://github.com/BBBBBreak/Retflix">▶︎ Retfilx page</a>
-      {/* 수정 해서 배포 해야함 */}
+      <a href="https://retflix.vercel.app/">▶︎ Retfilx page</a>
     </>
   );
 };
