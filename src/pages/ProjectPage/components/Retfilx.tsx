@@ -63,7 +63,12 @@ const Retfilx: React.FC = () => {
       {/* <a href="https://cdn-api.elice.io/recruit-api-attachment/attachment/42f906a51bba4f29addc091f549feaab/weather.MP4">
         ▶︎ 시연영상
       </a> */}
-      <a href="https://github.com/BBBBBreak/Retflix">▶︎ github repository</a>
+      <a href="https://github.com/BBBBBreak/Retflix">
+        ▶︎ github team repository
+      </a>
+      <a href="https://github.com/leedo97y/Retflix">
+        ▶︎ github personal repository
+      </a>
       <a href="https://retflix.vercel.app/">▶︎ Retfilx page</a>
     </>
   );
