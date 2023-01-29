@@ -13,9 +13,11 @@ const TripMatch: React.FC = () => {
     <>
       <h1>TripMatch - 여행 동행자 매칭 서비스</h1>
       <span>2022년 12월 12일 ~ 30일</span>
-      <p id="prize">
-        ※ 엘리스 SW 3기 2차 프로젝트 시상식 <Red>최우수상 수상</Red>
-      </p>
+      <div id="prize">
+        <p>
+          ※ 엘리스 SW 3기 2차 프로젝트 시상식 <Red>최우수상 수상</Red>
+        </p>
+      </div>
 
       <img src={TripMatchMain} id="image" />
       <p>

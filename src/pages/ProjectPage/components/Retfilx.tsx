@@ -1,7 +1,7 @@
 import React from "react";
 import { Bold, RealRed } from "../ProjectPageStyle";
 import RetfilxMain from "../../../assets/images/retfilxmain.png";
-import SkillButton from "./WeatherSkill";
+// import SkillButton from "./WeatherSkill";
 import { RetfilxSkill, RetfilxTool } from "./RetfilxSkill";
 
 const Retfilx: React.FC = () => {
