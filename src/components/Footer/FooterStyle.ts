@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Info = styled.div`
-  height: 200px;
+  height: 210px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
