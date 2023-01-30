@@ -12,8 +12,8 @@ const Retfilx: React.FC = () => {
 
       <img src={RetfilxMain} id="image" />
       <p>
-        <RealRed>React</RealRed> 로 Netfilx를 클론코딩하였다. ( React + Netfilx
-        =<Bold> Retfilx</Bold> )
+        <RealRed>React</RealRed> 로 Netfilx의 UI를 클론코딩하였다. ( React +
+        Netfilx =<Bold> Retfilx</Bold> )
       </p>
       <p>
         figma로 각 페이지를 디자인 한 뒤, 각자 페이지를 맡아 구현하였으며, 메인
@@ -30,14 +30,29 @@ const Retfilx: React.FC = () => {
       </p>
       <p>
         메인 페이지를 구성할 때 메인 페이지에 자동으로 재생되는 영상을 어떻게
-        넣을 것인가 하는 고민사항이 있었다.
+        넣을 것인가 하는 고민사항과
+        <br />
+        라우팅 설정에 대한 고민사항이 있었다.
       </p>
       <p>
-        백엔드를 담당하는 사람이 없었기에 영상 데이터를 받아와서 다룰 수 있는
-        상황이 아니었으므로,
+        우선 영상은 백엔드를 담당하는 사람이 없었기에 영상 데이터를 받아와서
+        다룰 수 있는 상황이 아니었으므로,
         <br />
         <RealRed>react-player</RealRed> 를 사용하여 유투브에서 가져온 링크를
         넣어 재생가능하게 해주었다.
+      </p>
+      <p>
+        라우팅은 로그인 시 부여한 토큰의 유무에 따라 토큰이 없을 경우 인트로
+        페이지가 첫 페이지,
+        <br />
+        토큰이 있을 경우 메인페이지가 첫 페이지가 되도록 설정해 준 것이었는데,
+        <br />
+        토큰 값이 변수에 저장된 상태로 리로딩이 되지 않아서 문제가 발생했다.
+        <br />
+        따라서, 로그인 페이지에서 로그인 완료 후 첫 페이지로 navigate를 해주는
+        코드 뒤에
+        <br />
+        리로딩을 해주는 코드를 추가하여 문제를 해결하였다.
       </p>
       <p>
         아이콘은 <RealRed>react-icons</RealRed> 를 import해서 구현하였다.
