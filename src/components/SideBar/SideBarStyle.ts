@@ -37,17 +37,3 @@ export const ProfileSpace = styled.div`
     letter-spacing: 1.5px;
   }
 `;
-export const Info = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 13px;
-  margin-top: 20px;
-
-  img {
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-    filter: invert(100%);
-  }
-`;
