@@ -71,8 +71,9 @@ export const ProjectDiv = styled.div`
 
 export const Contents = styled.div`
   width: 800px;
-  height: 500px;
+  height: 450px;
   margin: 30px auto;
+  padding-right: 10px;
   font-weight: 400;
   font-size: 15px;
   font-family: "NanumSquareNeo";
@@ -80,7 +81,7 @@ export const Contents = styled.div`
 
   display: grid;
 
-  overflow-y: scroll;
+  visibility: visible;
 
   h1 {
     font-size: 25px;
@@ -121,9 +122,6 @@ export const Contents = styled.div`
   a {
     text-decoration: none;
   }
-  &::-webkit-scrollbar {
-    display: none;
-  }
 
   h4 {
     font-family: "Alegreya Sans SC", sans-serif;
@@ -151,6 +149,25 @@ export const Contents = styled.div`
   #add {
     font-weight: 500;
     margin-bottom: 20px;
+  }
+`;
+
+export const Layer = styled.div`
+  margin: 30px auto;
+  overflow-y: scroll;
+  visibility: hidden;
+
+  &:hover {
+    visibility: visible;
+  }
+
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
   }
 `;
 
