@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SideBar from "../../components/SideBar/SideBar";
-import { Container, ProjectDiv, Contents } from "./ProjectPageStyle";
+import { Container, ProjectDiv, Contents, Layer } from "./ProjectPageStyle";
 import Weather from "./components/Weather";
 import FriedEgg from "./components/FriedEgg";
 import Retfilx from "./components/Retfilx";
@@ -80,14 +80,15 @@ const ProjectPage: React.FC = () => {
           ) : (
             <button onClick={onClickPf}>DYL Portfolio</button>
           )}
-
-          <Contents>
-            {weather ? <Weather /> : null}
-            {egg ? <FriedEgg /> : null}
-            {retfilx ? <Retfilx /> : null}
-            {trip ? <TripMatch /> : null}
-            {pf ? <Portfolio /> : null}
-          </Contents>
+          <Layer>
+            <Contents>
+              {weather ? <Weather /> : null}
+              {egg ? <FriedEgg /> : null}
+              {retfilx ? <Retfilx /> : null}
+              {trip ? <TripMatch /> : null}
+              {pf ? <Portfolio /> : null}
+            </Contents>
+          </Layer>
         </ProjectDiv>
       </Container>
     </div>
