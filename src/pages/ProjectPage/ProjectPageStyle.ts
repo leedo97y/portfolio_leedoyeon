@@ -71,7 +71,7 @@ export const ProjectDiv = styled.div`
 
 export const Contents = styled.div`
   width: 800px;
-  height: 450px;
+  height: 350px;
   margin: 30px auto;
   padding-right: 10px;
   font-weight: 400;
