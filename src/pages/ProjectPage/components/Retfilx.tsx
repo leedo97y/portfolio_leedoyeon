@@ -71,10 +71,11 @@ const Retfilx: React.FC = () => {
       <h3>skill</h3>
       <h4>frontend</h4>
       <RetfilxSkill />
-      <h4>tool</h4>
-      <RetfilxTool />
       <h4>deploy</h4>
       <RetfilxDeploy />
+      <h4>tool</h4>
+      <RetfilxTool />
+
       <h3>url</h3>
       {/* <a href="https://cdn-api.elice.io/recruit-api-attachment/attachment/42f906a51bba4f29addc091f549feaab/weather.MP4">
         ▶︎ 시연영상

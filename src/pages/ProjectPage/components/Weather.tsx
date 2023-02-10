@@ -1,7 +1,11 @@
 import React from "react";
 import { Bold } from "../ProjectPageStyle";
 import WeatherProject from "../../../assets/images/weatherProject.png";
-import SkillButton from "./WeatherSkill";
+import {
+  WeatherFrontButton,
+  WeatherBackButton,
+  WeatherToolButton,
+} from "./WeatherSkill";
 
 const Weather: React.FC = () => {
   return (
@@ -17,7 +21,7 @@ const Weather: React.FC = () => {
       <p>
         open Weather API를 사용하였으며, 첫 프로젝트였다.
         <br />
-        백엔드 한명에 프론트 4명으로 구성되어 있었지만, 모두 개발 자체가
+        백엔드 1명에 프론트 4명으로 구성되어 있었지만, 모두 개발 자체가
         처음이었기에 언어를 다루는 데 미숙하여 프론트는 Vanilla JS로만 구성했다.
       </p>
       <p>
@@ -41,7 +45,12 @@ const Weather: React.FC = () => {
         참견 등 아이디어를 내며 기획의 즐거움을 느낄 수 있었다.
       </p>
       <h3>skill</h3>
-      <SkillButton />
+      <h4>frontend</h4>
+      <WeatherFrontButton />
+      <h4>backend</h4>
+      <WeatherBackButton />
+      <h4>tool</h4>
+      <WeatherToolButton />
       <h3>url</h3>
       <a href="https://cdn-api.elice.io/recruit-api-attachment/attachment/42f906a51bba4f29addc091f549feaab/weather.MP4">
         ▶︎ 시연영상

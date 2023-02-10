@@ -42,10 +42,11 @@ const Portfolio: React.FC = () => {
       <h3>skill</h3>
       <h4>frontend</h4>
       <PortfolioSkill />
-      <h4>tool</h4>
-      <PortfolioTool />
       <h4>deploy</h4>
       <PortfolioDeploy />
+      <h4>tool</h4>
+      <PortfolioTool />
+
       <h3>url</h3>
       <a href="https://github.com/leedo97y/portfolio_leedoyeon">
         ▶︎ github repository

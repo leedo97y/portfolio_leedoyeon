@@ -3,9 +3,12 @@ import { WholeBtn, Button } from "./SkillButtonStyle";
 import HtmlLogo from "../../../assets/images/htmllogo.png";
 import CssLogo from "../../../assets/images/csslogo.png";
 import JsLogo from "../../../assets/images/jslogo.png";
+
 import PythonLogo from "../../../assets/images/pythonlogo.png";
 
-const SkillButton: React.FC = () => {
+import FigmaLogo from "../../../assets/images/figmalogo.png";
+
+const WeatherFrontButton: React.FC = () => {
   return (
     <WholeBtn>
       <Button>
@@ -17,6 +20,13 @@ const SkillButton: React.FC = () => {
       <Button>
         <img src={JsLogo} alt="JavaScript" />
       </Button>
+    </WholeBtn>
+  );
+};
+
+const WeatherBackButton: React.FC = () => {
+  return (
+    <WholeBtn>
       <Button>
         <img src={PythonLogo} alt="python" />
       </Button>
@@ -24,4 +34,14 @@ const SkillButton: React.FC = () => {
   );
 };
 
-export default SkillButton;
+const WeatherToolButton: React.FC = () => {
+  return (
+    <WholeBtn>
+      <Button>
+        <img src={FigmaLogo} alt="figma" />
+      </Button>
+    </WholeBtn>
+  );
+};
+
+export { WeatherFrontButton, WeatherBackButton, WeatherToolButton };

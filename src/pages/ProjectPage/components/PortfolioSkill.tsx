@@ -4,12 +4,12 @@ import ReactLogo from "../../../assets/images/reactlogo.png";
 import TypeScriptLogo from "../../../assets/images/typescriptlogo.png";
 import SassLogo from "../../../assets/images/sasslogo.png";
 import StyledLogo from "../../../assets/images/styledlogo.png";
-import ReduxLogo from "../../../assets/images/reduxlogo.png";
 
 import VercelLogo from "../../../assets/images/vercellogo.png";
 
 import GitLogo from "../../../assets/images/gitlogo.png";
 import GithubLogo from "../../../assets/images/githublogo.png";
+import FigmaLogo from "../../../assets/images/figmalogo.png";
 
 const PortfolioSkill: React.FC = () => {
   return (
@@ -26,9 +26,6 @@ const PortfolioSkill: React.FC = () => {
       <Button>
         <img src={SassLogo} alt="Sass" />
       </Button>
-      <Button>
-        <img src={ReduxLogo} alt="redux-toolkit" />
-      </Button>
     </WholeBtn>
   );
 };
@@ -41,6 +38,9 @@ const PortfolioTool: React.FC = () => {
       </Button>
       <Button>
         <img src={GithubLogo} alt="github" />
+      </Button>
+      <Button>
+        <img src={FigmaLogo} alt="figma" />
       </Button>
     </WholeBtn>
   );
