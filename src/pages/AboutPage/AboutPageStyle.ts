@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 100vh;
 
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 250px 1fr;
   overflow: hidden;
 `;
 
@@ -33,7 +33,7 @@ export const AboutDiv = styled.div`
     margin-bottom: 7px;
     font-family: "Alegreya Sans SC", sans-serif;
     letter-spacing: 0;
-    border-bottom: 1px solid #c9c9c9;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
     color: #2e3340;
   }
 
@@ -47,16 +47,16 @@ export const AboutDiv = styled.div`
 
   @media screen and (max-height: 950px) {
     height: 100vh;
-    font-size: 12px;
-    line-height: 20px;
-    padding: 40px 30px 0 0;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 40px 50px 0 50px;
 
     h1 {
-      font-size: 25px;
+      font-size: 30px;
     }
 
     h3 {
-      font-size: 20px;
+      font-size: 22px;
     }
 
     p {
@@ -70,16 +70,16 @@ export const AboutDiv = styled.div`
 
   @media screen and (max-width: 950px) {
     height: 100vh;
-    font-size: 12px;
-    line-height: 20px;
-    padding: 40px 30px 0 0;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 40px 50px 0 50px;
 
     h1 {
-      font-size: 25px;
+      font-size: 30px;
     }
 
     h3 {
-      font-size: 20px;
+      font-size: 22px;
     }
 
     p {

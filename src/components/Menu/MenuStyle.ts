@@ -62,7 +62,7 @@ export const Menu = styled.div`
     button {
       width: 150px;
       height: 50px;
-      font-size: 25px;
+      font-size: 23px;
     }
   }
 
@@ -76,7 +76,7 @@ export const Menu = styled.div`
     button {
       width: 150px;
       height: 50px;
-      font-size: 25px;
+      font-size: 23px;
     }
   }
 `;
