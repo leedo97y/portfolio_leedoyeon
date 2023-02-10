@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
+
   display: grid;
   grid-template-columns: 300px 1fr;
   overflow: hidden;
@@ -42,6 +43,52 @@ export const AboutDiv = styled.div`
 
   span {
     margin-bottom: 10px;
+  }
+
+  @media screen and (max-height: 950px) {
+    height: 100vh;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 40px 30px 0 0;
+
+    h1 {
+      font-size: 25px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    span {
+      margin-bottom: 5px;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    height: 100vh;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 40px 30px 0 0;
+
+    h1 {
+      font-size: 25px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    span {
+      margin-bottom: 5px;
+    }
   }
 `;
 

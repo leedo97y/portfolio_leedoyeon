@@ -23,6 +23,62 @@ export const Menu = styled.div`
     background-color: transparent;
     border: none;
   }
+
+  @media screen and (max-height: 1000px) {
+    gap: 30px;
+
+    width: 150px;
+    height: 250px;
+    margin-top: 30px;
+
+    button {
+      width: 150px;
+      height: 50px;
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    gap: 30px;
+
+    width: 150px;
+    height: 250px;
+    margin-top: 30px;
+
+    button {
+      width: 150px;
+      height: 50px;
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (max-height: 900px) {
+    gap: 30px;
+
+    width: 150px;
+    height: 250px;
+    margin-top: 30px;
+
+    button {
+      width: 150px;
+      height: 50px;
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    gap: 30px;
+
+    width: 150px;
+    height: 250px;
+    margin-top: 30px;
+
+    button {
+      width: 150px;
+      height: 50px;
+      font-size: 25px;
+    }
+  }
 `;
 
 export const NavbarLink = styled(NavLink)`

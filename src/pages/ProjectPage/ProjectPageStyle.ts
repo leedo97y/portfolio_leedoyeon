@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 250px 1fr;
   overflow: hidden;
 `;
 
@@ -66,6 +66,48 @@ export const ProjectDiv = styled.div`
     color: #f57e00;
     font-family: "NanumSquareNeoBold";
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 1000px) {
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    #teamButtons {
+      width: 800px;
+      grid-template-columns: repeat(5, 150px);
+    }
+
+    button {
+      width: 120px;
+      padding: 10px 10px;
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-height: 780px) {
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    #teamButtons {
+      width: 800px;
+      grid-template-columns: repeat(5, 150px);
+    }
+
+    button {
+      width: 120px;
+      padding: 10px 10px;
+      font-size: 12px;
+    }
   }
 `;
 
@@ -150,6 +192,33 @@ export const Contents = styled.div`
     font-weight: 500;
     margin-bottom: 20px;
   }
+
+  @media screen and (max-height: 780px) {
+    height: 280px;
+    font-size: 12px;
+    line-height: 20px;
+
+    h1 {
+      font-size: 20px;
+    }
+
+    #image {
+      width: 500px;
+      height: 250px;
+    }
+
+    h3 {
+      font-size: 25px;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
+
+    p > span {
+      font-size: 12px;
+    }
+  }
 `;
 
 export const Layer = styled.div`
@@ -173,6 +242,10 @@ export const Layer = styled.div`
 
 export const Bold = styled.span`
   font-weight: 600;
+
+  /* @media screen and (max-height: 780px) {
+    font-size: 12px;
+  } */
 `;
 
 export const Green = styled.span`

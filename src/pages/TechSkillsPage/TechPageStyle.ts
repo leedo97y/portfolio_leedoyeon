@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 250px 1fr;
   overflow: hidden;
 `;
 
@@ -42,5 +42,15 @@ export const TechDiv = styled.div`
 
   #lang {
     margin-top: 30px;
+  }
+
+  @media screen and (max-height: 800px) {
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    #lang {
+      margin-top: 20px;
+    }
   }
 `;

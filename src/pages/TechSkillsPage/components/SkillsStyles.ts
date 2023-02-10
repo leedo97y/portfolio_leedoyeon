@@ -21,6 +21,15 @@ export const LanguageDiv = styled.div`
     margin-top: 10px;
     color: black;
   }
+
+  @media screen and (max-height: 800px) {
+    height: 250px;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
 `;
 
 export const Content = styled.div`
@@ -29,11 +38,7 @@ export const Content = styled.div`
   align-items: center;
   margin-bottom: 20px;
 
-  #html {
-    width: 65px;
-    height: 65px;
-  }
-
+  #html,
   #css {
     width: 65px;
     height: 65px;
@@ -52,6 +57,29 @@ export const Content = styled.div`
   #mongo {
     width: 70px;
     height: 70px;
+  }
+
+  @media screen and (max-height: 800px) {
+    #html,
+    #css {
+      width: 55px;
+      height: 55px;
+    }
+
+    #react {
+      width: 55px;
+      height: 50px;
+    }
+
+    #boot {
+      width: 60px;
+      height: 50px;
+    }
+
+    #mongo {
+      width: 60px;
+      height: 60px;
+    }
   }
 `;
 
@@ -76,5 +104,14 @@ export const ToolDiv = styled.div`
   span {
     margin-top: 10px;
     color: black;
+  }
+
+  @media screen and (max-height: 800px) {
+    height: 150px;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
   }
 `;
